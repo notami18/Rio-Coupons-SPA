@@ -1,8 +1,12 @@
 <template>
-  <header>
+  <div class="navbar-fixed">
     <nav>
       <!-- navbar content here  -->
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
+        <i class="material-icons">menu</i>
+      </a>
     </nav>
+
     <ul id="slide-out" class="sidenav sidenav-fixed">
       <li>
         <div class="user-view">
@@ -21,12 +25,14 @@
         </div>
       </li>
       <li>
-        <a href="#!">
-          <i class="material-icons">cloud</i>First Link With Icon
+        <a class="waves-effect" href="#!">
+          <i class="material-icons">dashboard</i>Dashboard
         </a>
       </li>
       <li>
-        <a href="#!">Second Link</a>
+        <a class="waves-effect" href="#!">
+          <i class="material-icons">local_offer</i>Promo
+        </a>
       </li>
       <li>
         <div class="divider"></div>
@@ -38,10 +44,7 @@
         <a class="waves-effect" href="#!">Third Link With Waves</a>
       </li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
-      <i class="material-icons">menu</i>
-    </a>
-  </header>
+  </div>
 </template>
 
 <script>
@@ -76,5 +79,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>
