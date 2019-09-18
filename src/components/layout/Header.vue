@@ -1,10 +1,16 @@
 <template>
   <div class="navbar-fixed">
     <nav>
-      <!-- navbar content here  -->
-      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
-        <i class="material-icons">menu</i>
-      </a>
+      <div class="nav-wrapper">
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="center">
+          <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
+            <i class="material-icons">account_circle</i>
+          </a>
+        </ul>
+      </div>
     </nav>
 
     <ul id="slide-out" class="sidenav sidenav-fixed">
@@ -25,14 +31,14 @@
         </div>
       </li>
       <li>
-        <a class="waves-effect" href="#!">
+        <router-link :to="{name: 'dashboard'}" class="waves-effect">
           <i class="material-icons">dashboard</i>Dashboard
-        </a>
+        </router-link>
       </li>
       <li>
-        <a class="waves-effect" href="#!">
+        <router-link to="promo" class="waves-effect" href="#!">
           <i class="material-icons">local_offer</i>Promo
-        </a>
+        </router-link>
       </li>
       <li>
         <div class="divider"></div>
@@ -61,7 +67,6 @@ export default {
 
     document.addEventListener("DOMContentLoaded", function() {
       var elems = document.querySelectorAll(".sidenav");
-      debugger;
       var instances = M.Sidenav.init(elems);
     });
 

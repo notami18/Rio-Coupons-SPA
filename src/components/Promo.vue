@@ -7,7 +7,7 @@
           <h2>Promociones</h2>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container activator">
                 <img class="activator" src="../assets/frisby.png" />
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/kokoriko.jpg" />
@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/office.jpg" />
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/jenos.png" />
@@ -108,7 +108,7 @@
         </div>
 
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/office.jpg" />
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/office.jpg" />
@@ -158,7 +158,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/office.jpg" />
@@ -183,7 +183,7 @@
           </div>
         </div>
         <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card small z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
               <figure class="figure_container">
                 <img class="activator" src="../assets/office.jpg" />
@@ -231,10 +231,6 @@ figure.figure_container {
   position: relative;
   width: 100%;
   max-height: 180px;
-  // border-radius: 6px;
-  // -moz-border-radius: 6px;
-  // -webkit-border-radius: 9px;
-  // overflow: hidden;
   margin-top: 10px;
   margin: 0 auto;
 }
